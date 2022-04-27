@@ -27,7 +27,7 @@ pipeline{
         stage('three'){
             steps{
                 echo 'this is the package job'
-                sh 'npm run packagee'
+                sh 'npm run package'
                 sleep 7
             }
         }
