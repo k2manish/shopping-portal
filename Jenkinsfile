@@ -9,7 +9,7 @@ pipeline {
       }
     }
 
-    stage('two') {
+    stage('test') {
       steps {
         echo 'this is the test job'
         sh 'npm test'
